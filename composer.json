@@ -26,7 +26,9 @@
         "drupal/tome": "^1.0",
         "drupal-tome/tome_drush": "dev-master",
         "webflo/drupal-finder": "^1.2",
-        "drupal/colorbox": "^1.7"
+        "drupal/colorbox": "^1.7",
+        "drupal/focal_point": "^1.5",
+        "drupal/media_library_edit": "^2.1"
     },
     "scripts": {
         "gh-pages": "./scripts/gh-pages.sh",

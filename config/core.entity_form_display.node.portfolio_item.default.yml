@@ -7,6 +7,7 @@ dependencies:
     - node.type.portfolio_item
   module:
     - media_library
+    - media_library_edit
 id: node.portfolio_item.default
 targetEntityType: node
 bundle: portfolio_item
@@ -23,7 +24,9 @@ content:
     weight: 121
     settings:
       media_types: {  }
-    third_party_settings: {  }
+    third_party_settings:
+      media_library_edit:
+        show_edit: '1'
     region: content
   promote:
     type: boolean_checkbox

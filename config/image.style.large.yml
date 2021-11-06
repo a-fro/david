@@ -1,17 +1,19 @@
 uuid: 075f982e-07ee-473c-90ad-08cd6b8fddc6
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  module:
+    - focal_point
 _core:
   default_config_hash: J2n0RpFzS0-bgSyxjs6rSdgxB1rb-bTAgqywNx_964M
 name: large
 label: 'Large (480×480)'
 effects:
-  ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
-    uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
-    id: image_scale
-    weight: 0
+  5c8d4a52-6124-43e6-9146-659c9e945b8a:
+    uuid: 5c8d4a52-6124-43e6-9146-659c9e945b8a
+    id: focal_point_scale_and_crop
+    weight: 2
     data:
       width: 480
       height: 480
-      upscale: false
+      crop_type: focal_point

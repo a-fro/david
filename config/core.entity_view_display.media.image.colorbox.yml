@@ -19,7 +19,7 @@ content:
     label: visually_hidden
     weight: 0
     settings:
-      colorbox_node_style: ''
+      colorbox_node_style: large
       colorbox_node_style_first: large
       colorbox_image_style: wide
       colorbox_gallery: page
