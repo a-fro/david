@@ -5,18 +5,28 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.portfolio_item.field_media
+    - image.style.large
     - node.type.portfolio_item
   module:
+    - media
     - user
 id: node.portfolio_item.teaser
 targetEntityType: node
 bundle: portfolio_item
 mode: teaser
 content:
+  field_media:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
   links:
-    weight: 100
+    weight: 1
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
-hidden:
-  field_media: true
+hidden: {  }

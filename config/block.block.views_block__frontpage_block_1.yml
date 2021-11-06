@@ -1,0 +1,37 @@
+uuid: 295bd4a8-2ee7-4210-969c-25467fce6079
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.frontpage
+  module:
+    - node
+    - system
+    - views
+  theme:
+    - olivero
+id: views_block__frontpage_block_1
+theme: olivero
+region: content
+weight: -5
+provider: null
+plugin: 'views_block:frontpage-block_1'
+settings:
+  id: 'views_block:frontpage-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: '20'
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
