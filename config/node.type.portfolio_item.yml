@@ -1,0 +1,11 @@
+uuid: 01e55947-3a65-41d1-b0c2-b518020b6654
+langcode: en
+status: true
+dependencies: {  }
+name: 'Portfolio item'
+type: portfolio_item
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

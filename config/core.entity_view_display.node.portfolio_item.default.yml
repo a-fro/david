@@ -1,0 +1,29 @@
+uuid: 00cc9dfd-cf9c-4838-af69-62d5b8ca1e6c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portfolio_item.field_media
+    - node.type.portfolio_item
+  module:
+    - user
+id: node.portfolio_item.default
+targetEntityType: node
+bundle: portfolio_item
+mode: default
+content:
+  field_media:
+    type: entity_reference_entity_view
+    weight: 101
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
