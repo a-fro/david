@@ -7,6 +7,31 @@
     <language>en</language>
     
     <item>
+  <title>Test 2</title>
+  <link>https://a-fro.github.io/david/node/2</link>
+  <description>&lt;span&gt;Test 2&lt;/span&gt;
+&lt;span&gt;&lt;span&gt;admin&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;Sat, 11/06/2021 - 17:35&lt;/span&gt;
+
+            &lt;div class="field field--name-field-media field--type-entity-reference field--label-hidden field__item"&gt;&lt;div class="media media--type-image media--view-mode-default"&gt;
+  
+      
+  &lt;div class="field field--name-field-media-image field--type-image field--label-visually_hidden"&gt;
+    &lt;div class="field__label visually-hidden"&gt;Image&lt;/div&gt;
+              &lt;div class="field__item"&gt;  &lt;img src="https://a-fro.github.io/david/sites/default/files/styles/large/public/2021-11/Screen%20Shot%202021-10-19%20at%209.24.41%20AM.png?itok=SWjNGYDg" width="366" height="474" alt="2" loading="lazy" /&gt;
+
+
+&lt;/div&gt;
+          &lt;/div&gt;
+
+  &lt;/div&gt;
+&lt;/div&gt;
+      </description>
+  <pubDate>Sat, 06 Nov 2021 17:35:40 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">2 at https://a-fro.github.io/david</guid>
+    </item>
+<item>
   <title>Test</title>
   <link>https://a-fro.github.io/david/node/1</link>
   <description>&lt;span&gt;Test&lt;/span&gt;
@@ -18,7 +43,7 @@
       
   &lt;div class="field field--name-field-media-image field--type-image field--label-visually_hidden"&gt;
     &lt;div class="field__label visually-hidden"&gt;Image&lt;/div&gt;
-              &lt;div class="field__item"&gt;  &lt;img src="https://a-fro.github.io/sites/default/files/styles/large/public/2021-11/Screen%20Shot%202021-05-27%20at%203.24.52%20PM.png?itok=DLEb4kuf" width="480" height="331" alt="test" loading="lazy" /&gt;
+              &lt;div class="field__item"&gt;  &lt;img src="https://a-fro.github.io/david/sites/default/files/styles/large/public/2021-11/Screen%20Shot%202021-05-27%20at%203.24.52%20PM.png?itok=DLEb4kuf" width="480" height="331" alt="test" loading="lazy" /&gt;
 
 
 &lt;/div&gt;
