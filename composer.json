@@ -28,6 +28,7 @@
         "webflo/drupal-finder": "^1.2"
     },
     "scripts": {
+        "gh-pages": "./scripts/gh-pages.sh",
         "symlink": "./scripts/symlink.sh",
         "post-install-cmd": [
             "@symlink"
