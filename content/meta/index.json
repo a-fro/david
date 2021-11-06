@@ -1,4 +1,7 @@
 {
     "user.afd62242-58b6-47fe-ba44-40184d4ee7aa": [],
-    "user.e8e3d18e-6f9a-43b2-a147-86c8e13ff228": []
+    "user.e8e3d18e-6f9a-43b2-a147-86c8e13ff228": [],
+    "node.9e0c7661-d2df-49ca-b5e8-d24debf42d06": [
+        "user.afd62242-58b6-47fe-ba44-40184d4ee7aa"
+    ]
 }

@@ -1,11 +1,11 @@
 uuid: 2006aa40-dcd7-48ae-915e-3be060e9204a
-name: 'Drush Site-Install'
+name: 'David Froehlich'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node/1
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
