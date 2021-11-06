@@ -1,28 +1,28 @@
-uuid: 295bd4a8-2ee7-4210-969c-25467fce6079
+uuid: c3666aa0-e2a6-46cb-a426-7b1c9935c7b3
 langcode: en
-status: false
+status: true
 dependencies:
   config:
-    - views.view.frontpage
+    - views.view.portfolio
   module:
     - node
     - system
     - views
   theme:
     - olivero
-id: views_block__frontpage_block_1
+id: views_block__portfolio_block_1
 theme: olivero
 region: content
-weight: -5
+weight: 0
 provider: null
-plugin: 'views_block:frontpage-block_1'
+plugin: 'views_block:portfolio-block_1'
 settings:
-  id: 'views_block:frontpage-block_1'
+  id: 'views_block:portfolio-block_1'
   label: ''
   provider: views
   label_display: '0'
   views_label: ''
-  items_per_page: '20'
+  items_per_page: none
 visibility:
   node_type:
     id: node_type
